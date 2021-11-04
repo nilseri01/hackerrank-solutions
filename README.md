@@ -2,4 +2,4 @@
 Solutions to HackerRank
 
 ## Important
-Please rename files to Result.java before run.
+Please rename files to Solution.java before run.
