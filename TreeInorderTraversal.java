@@ -1,6 +1,8 @@
 import java.util.*;
 import java.io.*;
 
+// https://www.hackerrank.com/challenges/tree-inorder-traversal/problem
+
 class Node {
     Node left;
     Node right;
@@ -29,7 +31,6 @@ class Node {
     public static void inOrder(Node root) {
         if (root.left == null) {
             System.out.print(root.data + " ");
-        
         } else {
             inOrder(root.left);
             System.out.print(root.data + " ");
