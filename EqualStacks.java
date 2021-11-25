@@ -41,7 +41,7 @@ class Result {
 
             // If all stacks are of same height, just return the height
             if (stack1Height == stack2Height && stack2Height == stack3Height) {
-                return st1.peek();
+                return stack1Height;
             }
 
             int highestArrayIndex = findHighestArrayIndex(stack1Height, stack2Height, stack3Height);
