@@ -24,7 +24,7 @@ class Solution {
     	Node left;
     	Node right;
 	*/
-	public static void levelOrder(Node root) {
+   public static void levelOrder(Node root) {
       Queue<Node> queue = new LinkedList<Node>();
       queue.add(root);
     
@@ -42,7 +42,7 @@ class Solution {
       }
     }
 
-	public static Node insert(Node root, int data) {
+    public static Node insert(Node root, int data) {
         if(root == null) {
             return new Node(data);
         } else {
